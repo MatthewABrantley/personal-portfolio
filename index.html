@@ -43,59 +43,64 @@
             <h2>Matt Brantley</h2>
             <img src="resources/MePicture.jpg" alt="Me">
             <div class="well">
-                <h4>Product Owner and Software QA with real world experience in Scrum and Waterfall development methods; devoted to always delivering the highest quality possible. Learning HTML, CSS, Javascript, SQL, and others.
-                </h4>
+                <h4>Product Owner, Software QA, and Business Analyst with real world experience in Scrum and Waterfall development methods; devoted to always delivering the highest quality possible.</h4>
+                <p>After years of reading, testing, and QAing software, I've decided to learn how to create it as well. I'm confident with SQL and working with API's; now learning HTML, CSS, and JavaScript.</p>
             </div>
         </div>
     </div>
+
     <div id="portfolio" class="container-fluid">
         <h2 class="center-text">Portfolio</h2>
         <div class="row">
             <div class="col-sm-6">
                 <div class="thumbnail" id="rcorners">
-                    <!-- Modal Images -->
+                    <div class="modal-header" id="modalblack">
+                        <h4 class="modal-title center-text">STRONG-R Risk & Needs Assessment</h4>
+                    </div>
                     <img src="resources/v4strongr.png" alt="Vant4ge Point, the platform for the STRONG-R">
                     <!-- Trigger the modal with a button -->
-                    <button type="button" class="btn btn-link btn-block" data-toggle="modal" data-target="#myModal">Info</button>
-
+                    <button type="button" class="btn btn-default btn-block" data-toggle="modal" data-target="#myModal" id="modalblack">Info</button>
                     <!-- Modal -->
                     <div id="myModal" class="modal fade" role="dialog">
                         <div class="modal-dialog">
                             <!-- Modal content-->
-                            <div class="modal-header" id="whiteback">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">STRONG-R Risk & Needs Assessment</h4>
+                            <div class="modal-header" id="modalblack">
+                                <button type="button" class="close" data-dismiss="modal" id="modalblack">&times;</button>
+                                <h4 class="modal-title center-text">STRONG-R Risk & Needs Assessment</h4>
                             </div>
                             <div class="modal-content">
                                 <!--Begin Carousel-->
                                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
                                     <!-- Indicators DISABLED
                                     <ol class="carousel-indicators">
                                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                                         <li data-target="#myCarousel" data-slide-to="1"></li>
                                         <li data-target="#myCarousel" data-slide-to="2"></li>
                                     </ol> -->
-
                                     <!-- Wrapper for slides -->
                                     <div class="carousel-inner">
 
                                         <div class="item active" id="roundborderimage">
-                                            <img src="resources/v4strongr.png" alt="lorem">
+                                            <img src="resources/v4&doc.png" alt="lorem">
                                             <div class="carousel-caption" id="carouseltext">
-                                                <h4>Text</h4>
+                                                <p class="textshadow">I served as the Product Owner for Vant4ge's STRONG-R, commissioned by WADOC with research done by WSU.
+                                                    <br> I spent two months conducting client research and produced a 1,000 page High Level Design with my COO, which I then translated into a Product Backlog in JIRA.</p>
                                             </div>
                                         </div>
 
                                         <div class="item" id="roundborderimage">
-                                            <img src="resources/v4strongr.png" alt="lorem">
+                                            <img src="resources/tdoc&ndcs.png" alt="lorem">
                                             <div class="carousel-caption" id="carouseltext">
+                                                <p class="textshadow">I then oversaw the customization, development, and deployment of the STRONG-R to Nebraska and Tennessee's Department of Corrections.</p>
                                             </div>
                                         </div>
 
                                         <div class="item" id="roundborderimage">
-                                            <img src="resources/v4strongr.png" alt="lorem">
+                                            <img src="resources/tasks.png" alt="lorem">
                                             <div class="carousel-caption" id="carouseltext">
+                                                <p class="textshadow well">My contributions to the STRONG-R project included:
+                                                    <br>Maintaining the Product Backlog, Testing completed functionality, Maintaining documentation, Updating project schedules / plans, Assisting team members, Feature design, Being a Client Liason, Critical
+                                                    issue investigation, "One-off" reports, and more.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -114,7 +119,8 @@
 
 
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <p class="center-text">More information on the STRONG-R may be found at:<a href="https://wsicj.wsu.edu/corrections-and-community-health/">https://wsicj.wsu.edu/</a></p>
+                                    <button type="button" class="btn btn-block" data-dismiss="modal" id="modalblack">Close</button>
                                 </div>
                             </div>
                         </div>
@@ -126,7 +132,7 @@
                     <!-- Modal Images -->
                     <img src="resources/v4strongr.png" alt="Vant4ge Point, the platform for the STRONG-R">
                     <!-- Trigger the modal with a button -->
-                    <button type="button" class="btn btn-link btn-block" data-toggle="modal" data-target="#strModal">Info</button>
+                    <button type="button" class="btn btn-default btn-block" data-toggle="modal" data-target="#strModal" id="modalblack">Info</button>
 
                     <!-- Modal -->
                     <div id="strModal" class="modal fade" role="dialog">
@@ -142,7 +148,7 @@
                                     <p>Some text in the modal.</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal" id="modalblack">Close</button>
                                 </div>
                             </div>
 
@@ -151,12 +157,13 @@
                 </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-sm-6">
                 <div class="thumbnail" id="rcorners">
                     <img src="resources/v4strongr.png" alt="Vant4ge Point, the platform for the STRONG-R">
                     <!-- Trigger the modal with a button -->
-                    <button type="button" class="btn btn-link btn-block" data-toggle="modal" data-target="#my2Modal">Info</button>
+                    <button type="button" class="btn btn-default btn-block" data-toggle="modal" data-target="#my2Modal" id="modalblack">Info</button>
 
                     <!-- Modal -->
                     <div id="my2Modal" class="modal fade" role="dialog">
@@ -185,7 +192,7 @@
                     <!-- Modal Images -->
                     <img src="resources/v4strongr.png" alt="Vant4ge Point, the platform for the STRONG-R">
                     <!-- Trigger the modal with a button -->
-                    <button type="button" class="btn btn-link btn-block" data-toggle="modal" data-target="#my3Modal">Info</button>
+                    <button type="button" class="btn btn-default btn-block" data-toggle="modal" data-target="#my3Modal" id="modalblack">Info</button>
 
                     <!-- Modal -->
                     <div id="my3Modal" class="modal fade" role="dialog">
@@ -201,7 +208,7 @@
                                     <p>Some text in the modal.</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal" id="modalblack">Close</button>
                                 </div>
                             </div>
 
@@ -233,8 +240,9 @@
     </div>
 
     <footer class="text-center">
+        <p style="text: grey">Vant4ge, Vant4gePoint, and the STRONG-R are Copyright © 2015–2017 <a href="http://www.vant4ge.com/">Vant4ge</a> - All Rights Reserved.</p>
         <a class="up-arrow" href="#myPage" data-toggle="Tooltip " title="Return to top">
-            <span class="glyphicon glyphicon-chevron-up"></span>
+            <span class="glyphicon glyphicon-chevron-up" style="color:black"></span>
         </a>
     </footer>
 </body>

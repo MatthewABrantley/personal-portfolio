@@ -7,6 +7,12 @@ row.relative {
     top: 50px;
 }
 
+.textshadow {
+    color: black;
+    text-shadow: 1px 1px 1px grey;
+    padding-top: 45px;
+}
+
 .col-sm-6 {
     display: flex;
     flex-flow: nowrap;
@@ -27,6 +33,11 @@ row.relative {
     max-width: 80%;
     height: 280px;
     width: 190px;
+}
+
+#modalblack {
+    background-color: black;
+    color: white;
 }
 
 
