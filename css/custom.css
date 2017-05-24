@@ -30,6 +30,12 @@ row.relative {
     border: 2px solid black;
 }*/
 
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
 .center-text {
     text-align: center;
 }
@@ -56,10 +62,6 @@ row.relative {
 
 h2 {
     margin-top: 50px;
-}
-
-h4 {
-    margin-top: 25px;
 }
 
 #rcorners {
