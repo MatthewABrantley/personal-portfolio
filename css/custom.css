@@ -10,12 +10,7 @@ row.relative {
 .textshadow {
     color: black;
     text-shadow: 1px 1px 1px grey;
-    padding-top: 45px;
-}
-
-.textshadow2 {
-    color: black;
-    text-shadow: 1px 1px 1px grey;
+    padding-top: -25px;
 }
 
 .col-sm-6 {
@@ -102,6 +97,10 @@ h2 {
     padding-top: 10px;
 }
 
+.carousel-indicators {
+    bottom: -32px;
+}
+
 .carousel-indicators li {
     display: inline-block;
     text-indent: 0;
@@ -114,4 +113,13 @@ h2 {
 
 .carousel-indicators .active {
     background-color: grey;
+}
+
+.carousel-caption {
+    transform: translateY(-72%);
+    bottom: initial;
+}
+
+.oride {
+    transform: translateY(-120%);
 }

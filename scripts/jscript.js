@@ -38,3 +38,17 @@ $(document).ready(function() {
         } // End if 
     });
 })
+
+//Pause the Carousels
+$('.carousel').carousel({
+    interval: "false"
+});
+
+// Always open the Modal Carousels on the active (first, and then any slide manually selected) image
+$(".modal").on('show.bs.modal', function() {
+    var firstItem = $(this).find(".item:first");
+    if (!firstItem.hasClass("active")) {
+        $(this).find(".active").removeClass("active");
+        firstItem.addClass("active");
+    }
+});
