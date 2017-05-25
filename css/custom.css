@@ -123,3 +123,8 @@ h2 {
 .oride {
     transform: translateY(-120%);
 }
+
+.legal {
+    color: grey;
+    font-size: 10px;
+}
